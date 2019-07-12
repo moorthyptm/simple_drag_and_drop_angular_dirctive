@@ -1,0 +1,13 @@
+.container {
+  border: 1px solid black;
+  padding: 2px;
+  border-style: dashed;
+
+  .box {
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+    position: fixed;
+    cursor: pointer;
+  }
+}
