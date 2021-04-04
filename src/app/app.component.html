@@ -1,7 +1,11 @@
 <!-- drag -->
 <div class="container" [ngStyle]="StyleObj()">
-  <div #box class="box" appDragElement (dragStart)="onDragStart($event)"
-    (dragMove)="onDragMove($event)" (dragEnd)="onDragEnd($event)">
-
-  </div>
+  <div
+    #box
+    class="box"
+    appDragElement
+    (dragStart)="onDragStart($event)"
+    (dragMove)="onDragMove($event)"
+    (dragEnd)="onDragEnd($event)"
+  ></div>
 </div>
